@@ -302,90 +302,88 @@ h5 {
   margin-bottom: 10px;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
 .container {
-  margin: 0 auto;
   width: 880px;
 }
 
 header {
   display: flex;
-  border: 2px solid red;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
 }
 
 header nav {
-  display: flex;
-  flex: 1;
-  justify-content: flex-start;
+  flex: 0.9;
 }
 
 header nav ul {
   display: flex;
+  justify-content: space-around;
 }
 header nav ul li a {
-  display: flex;
-  align-items: space-end;
-  border: 2px solid green;
-  margin: 0 20px;
+  color: gray;
 }
 
 .header-title {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  height: 400px;
   margin-top: 47px;
-  border: 3px dashed blue;
 }
 
 .header-title-text {
-  width: 300px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  border: 5px solid red;
+  align-items: center;
 }
 
 h1 {
-  display: flex;
-  justify-content: center;
   font-size: 74px;
-  border: 3px solid yellow;
+  margin-left: 70px;
 }
 
 button {
   border: 3px solid purple;
+  width: 147px;
 }
 
 .main-content {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
   flex-wrap: wrap;
   flex-flow: row wrap;
   align-content: flex-end;
   margin-top: 47px;
-  border: 5px solid red;
 }
 
 .main-content .top-content {
   display: flex;
   justify-content: space-between;
-  border: 5px dashed green;
+  border-top: 1px solid black;
   margin-bottom: 30px;
 }
 
 .main-content .top-content .text-content {
-  border: 3px dashed black;
+  margin-top: 30px;
 }
 
 .main-content .bottom-content {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
-  border: 5px dashed green;
+  border-top: 1px solid black;
 }
 
 .main-content .bottom-content .text-content {
-  border: 3px dashed black;
+  margin-top: 30px;
+  margin-right: 10px;
 }
 
 .contact {
@@ -400,3 +398,12 @@ button {
   align-items: center;
   margin-top: 25px;
 }
+
+.phone-number {
+  margin-top: 10px;
+}
+
+.email {
+  margin-top: 10px;
+}
+/* services styling */
